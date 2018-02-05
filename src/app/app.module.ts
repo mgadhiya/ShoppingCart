@@ -20,7 +20,7 @@ import { AdminRoutingModule } from './admin/admin-routing.module';
   imports: [
     BrowserModule,
     FormsModule,
-   // AdminModule,
+    AdminModule,
     AppRoutingModule
   ],
   providers: [],

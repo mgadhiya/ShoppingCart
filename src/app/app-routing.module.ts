@@ -6,8 +6,8 @@ import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
  {  path: 'admin',
- loadChildren: 'app/admin/admin.module#AdminModule',
-// component : AdminComponent
+// loadChildren: 'app/admin/admin.module#AdminModule',
+ component : AdminComponent
 }
 ];
 

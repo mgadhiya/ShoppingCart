@@ -9,7 +9,7 @@ import { ProductdetailComponent } from './productmgmt/productdetail/productdetai
 
 const adminRoutes: Routes = [
 
-      {  path: '', component: AdminComponent,
+      {  path: 'admin', component: AdminComponent,
       children: [
         {
           path: '',
