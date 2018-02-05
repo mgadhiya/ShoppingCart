@@ -10,6 +10,10 @@ import { AppComponent } from './app.component';
 
 import { AdminModule } from './admin/admin.module';
 import { AdminRoutingModule } from './admin/admin-routing.module';
+import { ClientRoutingModule } from './client/client-routing.module';
+import {ClientModule } from './client/clientmodule';
+
+import { ShowproductsComponent } from './client/showproducts/showproducts.component';
 
 
 
@@ -21,7 +25,9 @@ import { AdminRoutingModule } from './admin/admin-routing.module';
     BrowserModule,
     FormsModule,
     AdminModule,
-    AppRoutingModule
+    ClientModule,
+    AppRoutingModule,
+    ClientRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

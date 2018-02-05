@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
+import { ClientComponent } from './client/client.component';
 
 
 const appRoutes: Routes = [
  {  path: 'admin',
 // loadChildren: 'app/admin/admin.module#AdminModule',
  component : AdminComponent
+},
+{  path: 'client',
+// loadChildren: 'app/admin/admin.module#AdminModule',
+ component : ClientComponent
 }
 ];
 
